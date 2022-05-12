@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4C64F06F-B246-49C7-841C-95A3605F267B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrRecipientTool", "SignalrRecipientTool\SignalrRecipientTool.csproj", "{8F7E5F2C-963F-4BC8-8846-72602643FFEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalrPublisherTool", "SignalrPublisherTool\SignalrPublisherTool.csproj", "{D9BDD0D6-A767-4782-9CAD-16625036FD00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F7E5F2C-963F-4BC8-8846-72602643FFEB} = {4C64F06F-B246-49C7-841C-95A3605F267B}
+		{D9BDD0D6-A767-4782-9CAD-16625036FD00} = {4C64F06F-B246-49C7-841C-95A3605F267B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F7E5F2C-963F-4BC8-8846-72602643FFEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7E5F2C-963F-4BC8-8846-72602643FFEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7E5F2C-963F-4BC8-8846-72602643FFEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7E5F2C-963F-4BC8-8846-72602643FFEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BDD0D6-A767-4782-9CAD-16625036FD00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BDD0D6-A767-4782-9CAD-16625036FD00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BDD0D6-A767-4782-9CAD-16625036FD00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BDD0D6-A767-4782-9CAD-16625036FD00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
